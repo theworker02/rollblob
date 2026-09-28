@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/rollblob",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Roll digests and blob fingerprints for local integrity checks.",
+  "bin": {
+    "rollblob": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/rollblob.git"
+  },
+  "homepage": "https://theworker02.github.io/rollblob/",
+  "keywords": [
+    "roll",
+    "blob",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
